@@ -1,0 +1,55 @@
+<style>
+#container{
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+button{
+    font-size: 1.5rem;
+    padding:10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(78, 78, 119);
+}
+button:active{
+    background-color: rgb(161, 161, 187);
+}
+input{
+    font-size: 2rem;
+    text-align: center;
+    width: 150px;
+    font-weight: bold;
+}
+#diceResult{
+    margin: 25px;
+    color: green;
+}
+#diceImages img{
+    width: 150px;
+    margin:5px;
+}
+
+</style>
+
+
+
+<div id="container">
+
+    <h1>Dice Roller</h1>
+    <label># of dice</label>
+    <input type="number" value="1" min="1" max="6" id="numOfDice">
+    <button onclick="rollDice()">Roll Dice</button>
+    <div id="diceResult"></div>
+    <div id="diceImages"></div>
+</div>
+
+
+
+<script src="script.js"></script>
