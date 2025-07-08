@@ -19,9 +19,9 @@
             else{
            images.push(`<img src = "images/${value}.jpg">`);
     
-            }
-                   
+            }       
         }
+        console.log(diceResult);
         diceResult.textContent = `dice: ${values.join(', ')}`;
         diceImages.innerHTML = images.join('');
     }
