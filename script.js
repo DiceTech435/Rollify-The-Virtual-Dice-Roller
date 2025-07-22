@@ -11,10 +11,10 @@
             values.push(value);
     
             if(value == 1 || value == 6){
-           images.push(`<img src = "images/${value}.png" alt="Dice ${value}">`);
+           images.push(`<img src = "images/${value}.jfif" alt="Dice ${value}">`);
             }
             else if (value == 3 || value == 4 || value == 5){
-           images.push(`<img src = "images/${value}.jpeg">`);
+           images.push(`<img src = "images/${value}.jfif">`);
             }
             else{
            images.push(`<img src = "images/${value}.jpg">`);
